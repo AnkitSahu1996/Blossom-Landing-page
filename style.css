@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px 0; /* Add some spacing around the content */
+}
+
+.container {
+    max-width: 1200px; /* Center the content and limit its width */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the logo */
+.logo {
+    color: #F2AEB9; /* Text color */
+    text-decoration: none; /* Remove underlines */
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold; /* Make it bold */
+}
+
+/* Style the navigation links */
+.nav-links {
+    list-style: none; /* Remove bullets from the list */
+    display: flex; /* Display links horizontally */
+}
+
+.nav-links li {
+    margin-right: 20px; /* Add spacing between links */
+}
+
+.nav-links a {
+    color: #F2AEB9; /* Text color */
+    text-decoration: none; /* Remove underlines */
+    font-size: 18px; /* Adjust font size */
+}
+
+.nav-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+.box{
+    height: calc(100% - 68px);
+    width: 100%;
+}
+
+.box1{
+    background: rgba(0, 0, 0, 0.2) url(https://images.unsplash.com/photo-1684007998400-d7de26f1048e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+
+.content1{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    /* border: 2px solid red; */
+    width: 50%;
+}
+
+.content1 h1{
+    color: #ee1a9d;
+    /* -webkit-text-stroke: 2px rgb(243, 20, 20); */
+    letter-spacing: 3px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.content1 p{
+    color: #F2AEB9;
+    line-height: 25px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.content1 button{
+    position: relative;
+    left: 35%;
+    padding: 12px 34px;
+    font-size: 15px;
+    margin-top: 12px;
+    color: #F2AEB9;
+    transition: 1s;
+    border-radius: 25px;
+    border: #ee1a9d;
+    background-color: #ee1a9d;
+}
+
+.content1 button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
